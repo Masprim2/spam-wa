@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Spam WA</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+        
+        h1 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        button.simpan {
+            background-color: #007bff;
+        }
+        
+        button.start {
+            background-color: #28a745;
+        }
+        
+        button.stop {
+            background-color: #dc3545;
+        }
+        
+        button.cek {
+            background-color: #ffc107;
+            color: #000;
+        }
+        
+        .footer {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .footer span {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>WEB SPAM WA</h1><input type="text" id="phone-number" placeholder="628xxx"><button class="simpan" onclick="saveNumber()">Simpan</button><button class="start" onclick="startSpam()">Start</button><button class="stop" onclick="stopSpam()">Stop</button>
+        <button class="cek" onclick="checkNumber()">Cek Nomor</button>
+        <div class="footer"><span>Tools VIP</span><span>Baca Pesan dibawah</span><span>Rules Https</span><span>Info spar epep</span></div>
+    </div>
+    <script>
+        function saveNumber() {
+            const number = document.getElementById('phone-number').value;
+            if (number) {
+                alert(`Nomor {
+                    }    number
+                berhasil disimpan!`);
+            } else {
+                alert('Masukkan nomor terlebih dahulu!');
+            }
+        }
+
+        function startSpam() {
+            alert('Spam dimulai!');
+        }
+
+        function stopSpam() {
+            alert('Spam dihentikan!');
+        }
+
+        function checkNumber() {
+            alert('Cek nomor dilakukan!');
+        }
+    </script>
+
+    <body>
+        <script src="app.js"></script>
+    </body>
+</body>
+
+</html>
+
+</html>
+
+</html>
+
+</html>
+
+</html>
+
+</html>
+
+</html>
